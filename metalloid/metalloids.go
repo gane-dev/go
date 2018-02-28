@@ -41,7 +41,7 @@ func headers() string {
 		"Element", "Number", "AMU", grams,
 	)
 }
-func main() {
+func main1() {
 	fmt.Print(headers())
 	for _, m := range metalloids {
 		fmt.Printf(
@@ -49,5 +49,4 @@ func main() {
 			atoms(moles(m.weight)),
 		)
 	}
-	//test git
 }
